@@ -1,0 +1,9 @@
+name: Gitleaks Scan
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  gitleaks:
+    uses: SQ1-Devops/.github/.github/workflow-templates/gitleaks.yml@main
