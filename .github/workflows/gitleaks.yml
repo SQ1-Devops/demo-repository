@@ -6,4 +6,4 @@ on:
 
 jobs:
   gitleaks:
-    uses: SQ1-Devops/.github/.github/workflow-templates/gitleaks.yml@main
+    uses: SQ1-Devops/.github/.github/workflows/gitleaks.yml@main
